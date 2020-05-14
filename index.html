@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!--informar ao navegador que se trata de um documento do tipo html5-->
+<html lang="pt-br"> <!-- língua portuguesa, ínicio html-->
+
+    <head> 
+        <!--head é o elemento onde ficarão os metadados e título da aba-->
+            <meta charset="utf-8"> 
+            <!--metadados para utilização de ascentos que são utilizados na língua portuguesa-->
+            <title> FEES Tecnologia </title>
+            <link rel="stylesheet" type="text/css" href="css/style.css"><!--irá fazer referência ao arquivo do css style.css-->
+    </head>
+
+    <body><!--elemento que define o corpo do documento; body-->
+        <p>Minha primeira página</p><!--<p> define parágrafo-->
+        <nav><!--menu de navegação-->
+            <ul><!--elemento que possibilita inserir uma lista de itens-->
+                <li>
+                    <a href="#servicos">SERVIÇOS</a><!--a href linka com a seção "#servicos"...-->
+                </li>
+                <li>
+                    <a href="#clientes">CLIENTES</a>
+                </li>
+                <li>
+                    <a href="#parceiros">PARCEIROS</a>
+                </li>
+                <li>
+                    <a href="#time">TIME</a>
+                </li>
+                <li>
+                    <a href="#contato">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+        <header><!--cabeçalho-->
+            <h1>Minha página</h1><!--título da página, elemento fica maior, em negrito<h1,h2,h3>-->
+            <p> Oferecemos o desenvolvimento dos melhores sites e apps para sua empresa.
+                Garantimos uma experiência nova e satisfatória, fazendo com que o cliente
+                participe desde os primeiros momentos do desenvolvimento de software.
+                Aqui você não somente propõe e não fica sabendo como está sendo realizado o projeto,
+                mas a sua participação é essencial, mesmo não sabendo dos detalhes técnicos.
+                Vamos oferecer uma imersão total, sua colaboração será essencial para que nosso
+                time realize o melhor para você. Somos totalmente integrado ao cliente e ao seu
+                negócio, sua parceria, é nosso sucesso.                
+            </p>
+        </header>
+
+        <section id="servicos"><!--separar seções de conteúdo-->
+            <h2>SERVIÇOS</h2>
+            <p>Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos</p>
+            <div><!--organizar as imagens, dividi-las-->
+                <img src="img/tecnologia.jpeg" class="img_padrao"> <!--inserção de imagem e definição do tamanho-->
+            </div>
+            <div>
+                <img src="img/aplicativo.jpeg" class="img_padrao">
+            </div>  
+        </section>
+
+        <section id="clientes">
+            <h2>CLIENTES</h2>
+            <p>
+                Nossos clientes são os nossos melhores parceiros,
+                eles nos motivam a desenvolver soluções criativas e que atendam
+                satisfatoriamente suas demandas
+            </p>
+            <div>
+                <img src="img/clientes.jpg" class="img_padrao"> 
+            </div>
+            <div>
+                <img src="img/cliente 2.jpeg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <h2>PARCEIROS</h2>
+            <p>
+                Nossa empresa possuem os melhores parceiros para o seu negócio,
+                contamos com a Alfabeta Tecnologia e Gama Aplicações como parceiros
+                nesta jornada.
+            </p>
+            <div>
+                <a href="https://alfabeta.com.br/" target="_blank"><!--target="_blank" abre o link numa nova aba-->
+                    <img src="img/empresas.jpeg" class="img_padrao">
+                </a>
+            </div>
+        </section>
+
+        <section id="time">
+            <h2>TIME</h2>
+            <p>
+                Nosso time conta com colaboradores altamente treinados e eficientes
+                no desenvolvimento de software.
+            </p>
+            <div>
+                <img src="img/team.jpeg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>
+                Entre em contato com a nossa equipe através
+                dos canais no Facebook, Instagram e WhatsApp
+            </p>
+            <div>
+                <img src="img/email-blocks-on-gray-surface-1591062.jpg" class="mail">
+                <p>
+                    <a href="mailto:contato@empresa.com">contato@empresa.com</a><!--mailto possibilita direcionar a um email-->
+                </p>
+                <p>
+                    <a href="tel:9999999999">(99) 9999-9999</a><!-- tel possibilita direcionar telefone-->
+                </p>
+            </div>
+        </section>
+            
+        <footer><!--rodapé-->
+            <p>Desenvolvido por Fábio Sartori</p>
+        </footer>
+    </body>
+</html>
